@@ -1,8 +1,8 @@
 FROM nginx
 COPY ./index.html /usr/share/nginx/html/index.html
-COPY ./juego_alcoholemia.audio.worklet.js /usr/share/nginx/html/juego_alcoholemia.audio.worklet.js
-COPY ./juego_alcoholemia.js /usr/share/nginx/html/juego_alcoholemia.js
-COPY ./juego_alcoholemia.png /usr/share/nginx/html/juego_alcoholemia.png
-COPY ./juego_alcoholemia.pck /usr/share/nginx/html/juego_alcoholemia.pck
-COPY ./juego_alcoholemia.wasm /usr/share/nginx/html/juego_alcoholemia.wasm
+COPY ./index.audio.worklet.js /usr/share/nginx/html/index.audio.worklet.js
+COPY ./index.js /usr/share/nginx/html/index.js
+COPY ./index.png /usr/share/nginx/html/index.png
+COPY ./index.pck /usr/share/nginx/html/index.pck
+COPY ./index.wasm /usr/share/nginx/html/index.wasm
 
